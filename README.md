@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Project Name
+A modern web application built with Next.js, TypeScript, React Hook Form, and Font Awesome, featuring a modular and scalable folder structure.
+The project includes reusable UI components and a multi-step activity creation form.
 
-## Getting Started
+🚀 Tech Stack
+    Frontend
 
-First, run the development server:
+    Next.js (App Router)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+    React + TypeScript
+
+    React Hook Form (form handling)
+
+    Font Awesome (icons & fonts)
+
+    Tailwind CSS
+
+ 
+ Productivity Tool
+
+    ☕ Chai — because great code needs great chai
+
+    🍕 Pizza — bug fixing power-up
+
+
+📂 Folder Structure
+```
+project-root/
+│
+├── app/
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── common/
+│   │   ├── Modal.tsx
+│   │   ├── Button.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── Footer.tsx
+│   │   └── Label.tsx
+│   │
+│   └── activityForm/
+│       ├── FormSidebar.tsx
+│       ├── ActivityDetailsForm.tsx
+│       └── LocationDetailsForm.tsx
+│
+├── public/
+│
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+📝 Features
 
-To learn more about Next.js, take a look at the following resources:
+🔹 Multi-step activity creation form
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔹 Reusable UI components
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔹 Form validation using React Hook Form
 
-## Deploy on Vercel
+🔹 Clean TypeScript typing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🔹 Font Awesome icons integrated globally
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔹 Scalable folder structure
+
+🔹 Extensible for future form steps
+
+
+
+📦 Installation :
+    npm install
+
+
+
+▶️ Run the Project :
+    npm run dev
+
+
+App will run at:
+https://mammothzy-weld.vercel.app/
+
+
+
+
